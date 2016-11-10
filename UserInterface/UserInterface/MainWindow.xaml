@@ -5,8 +5,41 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UserInterface"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Figure" Height="500" Width="500" ResizeMode="NoResize">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="290*"/>
+            <RowDefinition Height="181*"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="Result_txtb" Grid.Row="1" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
+        <GroupBox x:Name="groupBox" Header="Фигура" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="73" Width="146" Background="LightGreen">
+            <Grid Margin="2,0,-2,0" >
+                <RadioButton x:Name="Rectangle_rbtn" Content="Прямоугольник" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Checked="Rectangle_rbtn_Checked"/>
+                <RadioButton x:Name="Volumectangle_rbtn" Content="Параллелепипед" HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Checked="Volumectangle_rbtn_Checked"/>
+            </Grid>
+        </GroupBox>
+        <Grid Name="Length_grid" Margin="174,10,10,195">
+            <TextBox x:Name="Length1_txtb" Margin="6,35,160,10" FontSize="22"/>
+            <Label x:Name="Length1_lbl" Content="Длина первой фигуры" Margin="0,0,164,47" />
+            <TextBox x:Name="Length2_txtb" Margin="160,35,10,10" FontSize="22"/>
+            <Label x:Name="Length2_lbl" Content="Длина второй фигуры" Margin="154,0,10,47" />
+        </Grid>
+        <Grid Name="Width_grid" Margin="174,100,10,103">
+            <TextBox x:Name="Width1_txtb" Margin="6,35,160,10" FontSize="22"/>
+            <Label x:Name="Width1_lbl" Content="Ширина первой фигуры" Margin="0,0,151,47" />
+            <TextBox x:Name="Width2_txtb" Margin="160,35,10,10" FontSize="22"/>
+            <Label x:Name="Width2_lbl" Content="Ширина второй фигуры" Margin="154,0,0,47" />
+        </Grid>
+        <Grid Name="Height_grid" Margin="174,192,10,15" RenderTransformOrigin="0.49,0.43">
+            <TextBox x:Name="Height1_txtb" Margin="6,35,160,10" FontSize="22"/>
+            <Label x:Name="Height1_lbl" Content="Высота первой фигуры" Margin="0,0,151,47" />
+            <TextBox x:Name="Height2_txtb" Margin="160,35,10,10" FontSize="22"/>
+            <Label x:Name="Height2_lbl" Content="Высота второй фигуры" Margin="154,0,0,47" />
+        </Grid>
+        <Grid Name="Button_grid" Margin="0,0,325,10" Height="270">
+            <Button x:Name="Create_btn" Content="Создать фигуры" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Width="146" Height="43" Click="Create_btn_Click"/>
+            <Button x:Name="RandomCreate_btn" Content="Случайные фигуры" HorizontalAlignment="Left" Margin="10,161,0,0" VerticalAlignment="Top" Width="146" Height="43" Click="RandomCreate_btn_Click"/>
+            <Button x:Name="Clear_btn" Content="Очистить" HorizontalAlignment="Left" Margin="10,218,0,0" VerticalAlignment="Top" Width="146" Height="43" Click="Clear_btn_Click"/>
+        </Grid>
     </Grid>
 </Window>
