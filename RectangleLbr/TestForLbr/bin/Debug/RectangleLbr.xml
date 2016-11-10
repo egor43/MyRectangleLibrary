@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RectangleLbr</name>
+    </assembly>
+    <members>
+        <member name="T:RectangleLbr.MyRectangle">
+            <summary>
+            Представляет прямоугольник
+            </summary>
+        </member>
+        <member name="P:RectangleLbr.MyRectangle.Width">
+            <summary>
+            Ширина прямоугольника
+            </summary>
+        </member>
+        <member name="P:RectangleLbr.MyRectangle.Length">
+            <summary>
+            Длинна прямоугольника
+            </summary>
+        </member>
+        <member name="T:RectangleLbr.MyVolumeRectangle">
+            <summary>
+            Предсталяет параллелепипед
+            </summary>
+        </member>
+    </members>
+</doc>

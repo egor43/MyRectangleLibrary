@@ -1,0 +1,10 @@
+E:\Егор\ООП\RectangleLbr\TestForLbr\bin\Debug\TestForLbr.exe
+E:\Егор\ООП\RectangleLbr\TestForLbr\bin\Debug\TestForLbr.pdb
+E:\Егор\ООП\RectangleLbr\TestForLbr\bin\Debug\RectangleLbr.dll
+E:\Егор\ООП\RectangleLbr\TestForLbr\bin\Debug\RectangleLbr.pdb
+E:\Егор\ООП\RectangleLbr\TestForLbr\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Егор\ООП\RectangleLbr\TestForLbr\obj\x86\Debug\TestForLbr.exe
+E:\Егор\ООП\RectangleLbr\TestForLbr\obj\x86\Debug\TestForLbr.pdb
+E:\Егор\ООП\RectangleLbr\TestForLbr\bin\Debug\RectangleLbr.xml
+D:\Egor\GitRepository\MyRectangleLibrary\RectangleLbr\TestForLbr\obj\x86\Debug\TestForLbr.exe
+D:\Egor\GitRepository\MyRectangleLibrary\RectangleLbr\TestForLbr\obj\x86\Debug\TestForLbr.pdb
