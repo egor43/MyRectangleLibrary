@@ -1,6 +1,0 @@
-E:\Егор\ООП\RectangleLbr\RectangleLbr\bin\Debug\RectangleLbr.dll
-E:\Егор\ООП\RectangleLbr\RectangleLbr\bin\Debug\RectangleLbr.pdb
-E:\Егор\ООП\RectangleLbr\RectangleLbr\obj\Debug\ResolveAssemblyReference.cache
-E:\Егор\ООП\RectangleLbr\RectangleLbr\obj\Debug\RectangleLbr.dll
-E:\Егор\ООП\RectangleLbr\RectangleLbr\obj\Debug\RectangleLbr.pdb
-E:\Егор\ООП\RectangleLbr\RectangleLbr\bin\Debug\RectangleLbr.XML
